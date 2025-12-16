@@ -1,0 +1,134 @@
+/*---------------------------------------------"
+// Template Name: Cricket Pulse
+// Template URL: https://techpedia.co.uk/template/cricket-pulse
+// Description:  Cricket Pulse - Sports Club Html Template
+// Version: 1.0.0
+
+===============================================   
+STYLE SHEET INDEXING
+|
+|___ Fonts
+|___ Variables
+|___ Responsive
+|___ Reset Styles
+|___ Spacing
+|___ Helper Classes
+|___ Buttons
+|___ Headings
+|___ Layout Styles
+|___ END STYLE SHEET INDEXING
+
+--------------------------------------------*/
+
+/*-------------------------
+    Fonts
+-------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap');
+
+
+/*-------------------------
+    Variables
+-------------------------*/
+/* Fonts */
+$font-primary: 'Nunito', sans-serif;
+$font-sec: 'Orbitron', sans-serif;
+$font-sec-2: 'Inter', sans-serif;
+$font-awesome: "Font Awesome 5 Pro";
+
+/* Colors */
+$accent-1: #7070FF;
+$purple: #682FBE;
+$blue: #0484FB ;
+$green: #0D8888;
+$white: #F8F8FF;
+$black: #0B0C0D;
+$light-black: #212627;
+$dark-black: #16191A;
+$lightest-gray: #ECECF2;
+$light-gray: #C6CBD2;
+$medium-gray: #9EA2A8;
+$dark-gray: #7A7F85;
+
+
+
+/* Transitions */
+$transition: all 0.5s ease;
+
+/* Gradients */
+
+/* Shadows */
+$shadow: 1px 1px 4px 0px rgba(0, 33, 33, 0.06), 5px 4px 7px 0px rgba(0, 33, 33, 0.05), 11px 10px 9px 0px rgba(0, 33, 33, 0.03), 20px 18px 11px 0px rgba(0, 33, 33, 0.01), 31px 28px 12px 0px rgba(0, 33, 33, 0.00);
+
+.img{
+    background: url(../media/backgrounds/bg-5.png);
+}
+
+/*-------------------------
+    Reset Styles
+-------------------------*/
+@import "basic/basic";
+
+/*-------------------------
+Helpers
+-------------------------*/
+@import "helpers/classes";
+
+@import "helpers/mixin";
+
+@import "helpers/spacing";
+
+/*-------------------------
+Elements
+-------------------------*/
+@import "elements/preloader";
+
+@import "elements/buttons";
+
+@import "elements/form";
+
+@import "elements/heading";
+
+/*-------------------------
+  layouts
+-------------------------*/
+@import "layout/header";
+
+@import "layout/footer";
+
+@import "layout/hero-banner";
+
+@import "layout/page-title-banner";
+
+@import "layout/about";
+
+@import "layout/brands";
+
+@import "layout/match-results";
+
+@import "layout/achievement";
+
+@import "layout/match-list";
+
+@import "layout/big-match";
+
+@import "layout/join";
+
+@import "layout/team";
+
+@import "layout/testimonials";
+
+@import "layout/blog";
+
+@import "layout/gallery";
+
+@import "layout/newslatter";
+
+@import "layout/player-info";
+
+@import "layout/faq";
+
+@import "layout/contact";
+
+
